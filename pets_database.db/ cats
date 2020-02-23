@@ -1,0 +1,4 @@
+SELECT Cats.name, Cats.breed, Owners.name
+FROM Cats
+INNER JOIM Owners
+ON Cats.owner_id = Owners.id;
